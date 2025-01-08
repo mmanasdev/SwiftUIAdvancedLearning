@@ -12,6 +12,7 @@
 		3A10C4C72D298D19000A9981 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A10C4C62D298D19000A9981 /* Preview Assets.xcassets */; };
 		3A10C4CE2D298D74000A9981 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A10C4CD2D298D74000A9981 /* ViewModifierBootcamp.swift */; };
 		3A1619492D2A9E100081D3FA /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1619482D2A9E100081D3FA /* ButtonStyleBootcamp.swift */; };
+		3A1A2D982D2F24F400798918 /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1A2D972D2F24F400798918 /* MatchedGeometryEffectBootcamp.swift */; };
 		3AE7E26A2D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7E2692D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		3A10C4C62D298D19000A9981 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A10C4CD2D298D74000A9981 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		3A1619482D2A9E100081D3FA /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		3A1A2D972D2F24F400798918 /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 		3AE7E2692D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 				3A10C4CD2D298D74000A9981 /* ViewModifierBootcamp.swift */,
 				3A1619482D2A9E100081D3FA /* ButtonStyleBootcamp.swift */,
 				3AE7E2692D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift */,
+				3A1A2D972D2F24F400798918 /* MatchedGeometryEffectBootcamp.swift */,
 				3A10C4C32D298D19000A9981 /* Assets.xcassets */,
 				3A10C4C52D298D19000A9981 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				3A10C4CE2D298D74000A9981 /* ViewModifierBootcamp.swift in Sources */,
 				3AE7E26A2D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift in Sources */,
 				3A10C4C02D298D18000A9981 /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
+				3A1A2D982D2F24F400798918 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
