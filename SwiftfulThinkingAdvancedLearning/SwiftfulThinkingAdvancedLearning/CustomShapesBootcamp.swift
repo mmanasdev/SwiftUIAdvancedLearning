@@ -30,7 +30,6 @@ struct Trapezoid: Shape {
             path.addLine(to: CGPoint(x: rect.minX + horizontalOffset, y: rect.minY))
         }
     }
-    
 }
 
 struct Diamond: Shape {
