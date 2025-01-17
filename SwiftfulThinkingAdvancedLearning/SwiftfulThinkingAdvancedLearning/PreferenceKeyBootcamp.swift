@@ -18,7 +18,6 @@ struct PreferenceKeyBootcamp: View {
                     .navigationTitle("NavigationTitle")
             }
         }
-        
     }
 }
 
