@@ -33,7 +33,7 @@ struct GeometryPreferenceKeyBootcamp: View {
             .frame(height: 55)
         }
         .onPreferenceChange(RectangleGeometrySizePreferenceKey.self) { value in
-            
+            rectSize = value
         }
     }
 }
