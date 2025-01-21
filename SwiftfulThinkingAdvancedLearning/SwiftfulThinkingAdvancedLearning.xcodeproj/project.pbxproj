@@ -18,6 +18,8 @@
 		3A208C1B2D35B6C4008B3EEC /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208C1A2D35B6C4008B3EEC /* GenericsBootcamp.swift */; };
 		3A3FBBF82D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FBBF72D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift */; };
 		3A62A7852D3EE7B8007C0957 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62A7842D3EE7B8007C0957 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
+		3A62A7882D4039A6007C0957 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62A7872D4039A6007C0957 /* AppTabBarView.swift */; };
+		3A62A78A2D403B41007C0957 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62A7892D403B41007C0957 /* CustomTabBarView.swift */; };
 		3A6492B62D36F17F0089D288 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6492B52D36F17F0089D288 /* ViewBuilderBootcamp.swift */; };
 		3A7A81A22D391F1B005763BC /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A81A12D391F1B005763BC /* PreferenceKeyBootcamp.swift */; };
 		3A82760E2D34574A00BD853C /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82760D2D34574A00BD853C /* AnimateableDataBootcamp.swift */; };
@@ -37,6 +39,8 @@
 		3A208C1A2D35B6C4008B3EEC /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		3A3FBBF72D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		3A62A7842D3EE7B8007C0957 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		3A62A7872D4039A6007C0957 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		3A62A7892D403B41007C0957 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		3A6492B52D36F17F0089D288 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		3A7A81A12D391F1B005763BC /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		3A82760D2D34574A00BD853C /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 		3A10C4BE2D298D18000A9981 /* SwiftfulThinkingAdvancedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				3A62A7862D40397F007C0957 /* CustomTabBar */,
 				3A3FBBF62D3BA4A900142560 /* PreferenceKeyBootcamp */,
 				3A10C4BF2D298D18000A9981 /* SwiftfulThinkingAdvancedLearningApp.swift */,
 				3A10C4CD2D298D74000A9981 /* ViewModifierBootcamp.swift */,
@@ -106,6 +111,15 @@
 				3A62A7842D3EE7B8007C0957 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
 			);
 			path = PreferenceKeyBootcamp;
+			sourceTree = "<group>";
+		};
+		3A62A7862D40397F007C0957 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3A62A7872D4039A6007C0957 /* AppTabBarView.swift */,
+				3A62A7892D403B41007C0957 /* CustomTabBarView.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,11 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A62A7882D4039A6007C0957 /* AppTabBarView.swift in Sources */,
 				3A1619492D2A9E100081D3FA /* ButtonStyleBootcamp.swift in Sources */,
 				3A10C4CE2D298D74000A9981 /* ViewModifierBootcamp.swift in Sources */,
 				3A82760E2D34574A00BD853C /* AnimateableDataBootcamp.swift in Sources */,
 				3AE7E26A2D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift in Sources */,
 				3A10C4C02D298D18000A9981 /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
+				3A62A78A2D403B41007C0957 /* CustomTabBarView.swift in Sources */,
 				3A6492B62D36F17F0089D288 /* ViewBuilderBootcamp.swift in Sources */,
 				3A208C1B2D35B6C4008B3EEC /* GenericsBootcamp.swift in Sources */,
 				3A3FBBF82D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
