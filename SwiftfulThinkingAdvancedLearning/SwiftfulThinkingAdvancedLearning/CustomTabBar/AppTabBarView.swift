@@ -15,30 +15,29 @@ import SwiftUI
 struct AppTabBarView: View {
     
     @State private var selection: String = "home"
-    @State private var tabSelection: TabBarItem = TabBarItem(iconName: "house", title: "Home", color: Color.red)
+    @State private var tabSelection: TabBarItem = .home
     
     var body: some View {
         //defaultTabView
         CustomTabBarContainerView(selection: $tabSelection) {
             Color.blue
-                .tabBarItem(tab: TabBarItem(iconName: "house", title: "Home", color: Color.red))
+                .tabBarItem(tab: .home, selection: $tabSelection)
             
             Color.red
-                .tabBarItem(tab: TabBarItem(iconName: "heart", title: "Favorites", color: Color.blue))
+                .tabBarItem(tab: .favorite, selection: $tabSelection)
             
             Color.green
-                .tabBarItem(tab: TabBarItem(iconName: "person", title: "Profile", color: Color.green))
+                .tabBarItem(tab: .profile, selection: $tabSelection)
+            
+            Color.orange
+                .tabBarItem(tab: .messages, selection: $tabSelection)
         }
     }
 }
 
 struct AppTabBarView_Previews: PreviewProvider {
     
-    static let tabs: [TabBarItem] = [
-        TabBarItem(iconName: "house", title: "Home", color: Color.red),
-        TabBarItem(iconName: "heart", title: "Favorites", color: Color.blue),
-        TabBarItem(iconName: "person", title: "Profile", color: Color.green)
-    ]
+    static let tabs: [TabBarItem] = [.home, .favorite, .profile]
     
     static var previews: some View {
         AppTabBarView()
