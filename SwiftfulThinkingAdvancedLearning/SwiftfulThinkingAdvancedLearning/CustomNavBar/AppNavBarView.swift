@@ -9,12 +9,45 @@ import SwiftUI
 
 struct AppNavBarView: View {
     var body: some View {
-        Text("Hello, World!")
+        //defaultNavView
+        
+        CustomNavView {
+            ZStack {
+                Color.orange.ignoresSafeArea()
+                
+                NavigationLink {
+                    Text("Destination")
+                } label: {
+                    Text("Navigate")
+                }
+
+            }
+        }
     }
 }
 
 struct AppNavBarView_Previews: PreviewProvider {
     static var previews: some View {
         AppNavBarView()
+    }
+}
+
+extension AppNavBarView {
+    private var defaultNavView: some View {
+        NavigationView {
+            ZStack {
+                Color.green.ignoresSafeArea()
+                
+                NavigationLink(
+                    destination:
+                                Text("Destination")
+                    .navigationTitle("Title 2")
+                    .navigationBarBackButtonHidden(false)
+                                ,label: {
+                    Text("Navigate")
+                })
+            }
+            .navigationTitle("Nav Title here")
+        }
     }
 }
