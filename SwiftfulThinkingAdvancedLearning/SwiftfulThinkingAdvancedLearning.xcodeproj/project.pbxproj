@@ -28,6 +28,7 @@
 		3A6B88352D46B4BA00C90F69 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B88342D46B4BA00C90F69 /* CustomNavLink.swift */; };
 		3A7A81A22D391F1B005763BC /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A81A12D391F1B005763BC /* PreferenceKeyBootcamp.swift */; };
 		3A82760E2D34574A00BD853C /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82760D2D34574A00BD853C /* AnimateableDataBootcamp.swift */; };
+		3ADEC5CD2D481952002FB352 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC5CC2D481952002FB352 /* CustomNavBarPreferenceKeys.swift */; };
 		3AE7E26A2D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7E2692D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift */; };
 		3AEB2F652D45634100B060C7 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB2F642D45634100B060C7 /* CustomNavBarView.swift */; };
 		3AEB2F672D45663700B060C7 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB2F662D45663700B060C7 /* CustomNavBarContainerView.swift */; };
@@ -57,6 +58,7 @@
 		3A6B88342D46B4BA00C90F69 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		3A7A81A12D391F1B005763BC /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		3A82760D2D34574A00BD853C /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		3ADEC5CC2D481952002FB352 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		3AE7E2692D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 		3AEB2F642D45634100B060C7 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
 		3AEB2F662D45663700B060C7 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				3AEB2F642D45634100B060C7 /* CustomNavBarView.swift */,
 				3AEB2F662D45663700B060C7 /* CustomNavBarContainerView.swift */,
 				3A6B88342D46B4BA00C90F69 /* CustomNavLink.swift */,
+				3ADEC5CC2D481952002FB352 /* CustomNavBarPreferenceKeys.swift */,
 			);
 			path = CustomNavBar;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				3A6492B62D36F17F0089D288 /* ViewBuilderBootcamp.swift in Sources */,
 				3A208C1B2D35B6C4008B3EEC /* GenericsBootcamp.swift in Sources */,
 				3A6B88352D46B4BA00C90F69 /* CustomNavLink.swift in Sources */,
+				3ADEC5CD2D481952002FB352 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				3A3FBBF82D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				3A1A2D982D2F24F400798918 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				3A3AE6392D42A2BC00A29730 /* TabBarItem.swift in Sources */,
