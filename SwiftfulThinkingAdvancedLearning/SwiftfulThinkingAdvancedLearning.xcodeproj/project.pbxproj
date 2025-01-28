@@ -28,6 +28,7 @@
 		3A6B88352D46B4BA00C90F69 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B88342D46B4BA00C90F69 /* CustomNavLink.swift */; };
 		3A7A81A22D391F1B005763BC /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A81A12D391F1B005763BC /* PreferenceKeyBootcamp.swift */; };
 		3A82760E2D34574A00BD853C /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82760D2D34574A00BD853C /* AnimateableDataBootcamp.swift */; };
+		3ADB2D432D496BAF00CE8DFA /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2D422D496BAF00CE8DFA /* UIViewRepresentableBootcamp.swift */; };
 		3ADEC5CD2D481952002FB352 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC5CC2D481952002FB352 /* CustomNavBarPreferenceKeys.swift */; };
 		3AE7E26A2D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7E2692D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift */; };
 		3AEB2F652D45634100B060C7 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB2F642D45634100B060C7 /* CustomNavBarView.swift */; };
@@ -58,6 +59,7 @@
 		3A6B88342D46B4BA00C90F69 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		3A7A81A12D391F1B005763BC /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		3A82760D2D34574A00BD853C /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		3ADB2D422D496BAF00CE8DFA /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		3ADEC5CC2D481952002FB352 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		3AE7E2692D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 		3AEB2F642D45634100B060C7 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
@@ -96,9 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				3A10C4BF2D298D18000A9981 /* SwiftfulThinkingAdvancedLearningApp.swift */,
-				3A3AE63A2D43F9C400A29730 /* CustomNavBar */,
-				3A62A7862D40397F007C0957 /* CustomTabBar */,
-				3A3FBBF62D3BA4A900142560 /* PreferenceKeyBootcamp */,
 				3A10C4CD2D298D74000A9981 /* ViewModifierBootcamp.swift */,
 				3A1619482D2A9E100081D3FA /* ButtonStyleBootcamp.swift */,
 				3AE7E2692D2D94EB00CE6F5C /* AnyTransitionBootcamp.swift */,
@@ -108,6 +107,10 @@
 				3A82760D2D34574A00BD853C /* AnimateableDataBootcamp.swift */,
 				3A208C1A2D35B6C4008B3EEC /* GenericsBootcamp.swift */,
 				3A6492B52D36F17F0089D288 /* ViewBuilderBootcamp.swift */,
+				3A3FBBF62D3BA4A900142560 /* PreferenceKeyBootcamp */,
+				3A62A7862D40397F007C0957 /* CustomTabBar */,
+				3A3AE63A2D43F9C400A29730 /* CustomNavBar */,
+				3ADB2D422D496BAF00CE8DFA /* UIViewRepresentableBootcamp.swift */,
 				3A10C4C32D298D19000A9981 /* Assets.xcassets */,
 				3A10C4C52D298D19000A9981 /* Preview Content */,
 			);
@@ -230,6 +233,7 @@
 				3A3AE63C2D43FA4300A29730 /* AppNavBarView.swift in Sources */,
 				3A62A78F2D413549007C0957 /* TabBarItemsPreferenceKey.swift in Sources */,
 				3A62A7882D4039A6007C0957 /* AppTabBarView.swift in Sources */,
+				3ADB2D432D496BAF00CE8DFA /* UIViewRepresentableBootcamp.swift in Sources */,
 				3A1619492D2A9E100081D3FA /* ButtonStyleBootcamp.swift in Sources */,
 				3A10C4CE2D298D74000A9981 /* ViewModifierBootcamp.swift in Sources */,
 				3A82760E2D34574A00BD853C /* AnimateableDataBootcamp.swift in Sources */,
