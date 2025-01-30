@@ -18,6 +18,7 @@
 		3A208C1B2D35B6C4008B3EEC /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208C1A2D35B6C4008B3EEC /* GenericsBootcamp.swift */; };
 		3A3AE6392D42A2BC00A29730 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AE6382D42A2BC00A29730 /* TabBarItem.swift */; };
 		3A3AE63C2D43FA4300A29730 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AE63B2D43FA4300A29730 /* AppNavBarView.swift */; };
+		3A3CD7AA2D4C2E05009EA2F4 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CD7A92D4C2E05009EA2F4 /* UIViewControllerRepresentableBootcamp.swift */; };
 		3A3FBBF82D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FBBF72D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift */; };
 		3A62A7852D3EE7B8007C0957 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62A7842D3EE7B8007C0957 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 		3A62A7882D4039A6007C0957 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62A7872D4039A6007C0957 /* AppTabBarView.swift */; };
@@ -49,6 +50,7 @@
 		3A208C1A2D35B6C4008B3EEC /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		3A3AE6382D42A2BC00A29730 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		3A3AE63B2D43FA4300A29730 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		3A3CD7A92D4C2E05009EA2F4 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		3A3FBBF72D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		3A62A7842D3EE7B8007C0957 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		3A62A7872D4039A6007C0957 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				3A62A7862D40397F007C0957 /* CustomTabBar */,
 				3A3AE63A2D43F9C400A29730 /* CustomNavBar */,
 				3ADB2D422D496BAF00CE8DFA /* UIViewRepresentableBootcamp.swift */,
+				3A3CD7A92D4C2E05009EA2F4 /* UIViewControllerRepresentableBootcamp.swift */,
 				3A10C4C32D298D19000A9981 /* Assets.xcassets */,
 				3A10C4C52D298D19000A9981 /* Preview Content */,
 			);
@@ -244,6 +247,7 @@
 				3AEB2F652D45634100B060C7 /* CustomNavBarView.swift in Sources */,
 				3A6492B62D36F17F0089D288 /* ViewBuilderBootcamp.swift in Sources */,
 				3A208C1B2D35B6C4008B3EEC /* GenericsBootcamp.swift in Sources */,
+				3A3CD7AA2D4C2E05009EA2F4 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				3A6B88352D46B4BA00C90F69 /* CustomNavLink.swift in Sources */,
 				3ADEC5CD2D481952002FB352 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				3A3FBBF82D3BA4DB00142560 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
